@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/lightOrange">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_x="5dp"
+                    android:layout_y="6dp"
+                    app:srcCompat="@drawable/sydney" />
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="179dp"
+                    android:layout_y="11dp"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:text="Sydney"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <TextClock
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_x="182dp"
+                    android:layout_y="72dp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:id="@+id/syd_time"/>
+
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/orange">
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="181dp"
+                    android:layout_y="21dp"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:text="Jakarta"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="5dp"
+                    android:layout_y="18dp"
+                    app:srcCompat="@drawable/jakarta" />
+
+                <TextClock
+                    android:id="@+id/jkt_tz"
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_x="182dp"
+                    android:layout_y="88dp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    android:textSize="25dp" />
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/lightOrange">
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="185dp"
+                    android:layout_y="25dp"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:text="Bali"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="5dp"
+                    android:layout_y="18dp"
+                    app:srcCompat="@drawable/bali" />
+
+                <TextClock
+                    android:id="@+id/bali_tz"
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_x="184dp"
+                    android:layout_y="90dp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    android:textSize="25dp" />
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/orange">
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="183dp"
+                    android:layout_y="23dp"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:text="Wellington"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="5dp"
+                    android:layout_y="18dp"
+                    app:srcCompat="@drawable/wellington" />
+
+                <TextClock
+                    android:id="@+id/nz_tz"
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_x="184dp"
+                    android:layout_y="90dp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    android:textSize="25dp" />
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/lightOrange">
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="61dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="185dp"
+                    android:layout_y="25dp"
+                    android:fontFamily="@font/delius_swash_caps"
+                    android:text="Tokyo"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="5dp"
+                    android:layout_y="18dp"
+                    app:srcCompat="@drawable/tokyo" />
+
+                <TextClock
+                    android:id="@+id/tokyo_tz"
+                    android:layout_width="185dp"
+                    android:layout_height="78dp"
+                    android:layout_x="184dp"
+                    android:layout_y="90dp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    android:textSize="25dp" />
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/set12HourButton"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_x="210dp"
+                    android:layout_y="0dp"
+                    android:text="12Hr"
+                    android:textColor="@color/orange"/>
+
+                <Button
+                    android:id="@+id/set24HourButton"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_x="26dp"
+                    android:layout_y="0dp"
+                    android:text="24Hr"
+                    android:textColor="@color/orange"/>
+
+            </AbsoluteLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
